@@ -1,4 +1,5 @@
 #hm1289, solution from 2022
+#definitely need to clean this up in the future
 import time
 from collections import deque
 
@@ -21,7 +22,7 @@ def solve():
             ans = node.val
     return ans - 2
 
-class Tree: 
+class Tree:
     def __init__(self, val, state, children=None):
         self.val = val
         self.state = state
